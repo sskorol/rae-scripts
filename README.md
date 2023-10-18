@@ -25,7 +25,8 @@ systemctl disable robothub-agent
 cd ~/rae-scripts
 mkdir ~/boot && cp ./wifi/start_wifi.sh ~/boot
 cp ./wifi/wifi-setup.service /etc/systemd/system/
-systemctl enable wifi-setup
+systemctl daemon-reload
+systemctl enable wifi-setup.service
 ```
 
 ### Installing the latest RAE build
