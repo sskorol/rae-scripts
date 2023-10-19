@@ -14,7 +14,7 @@ git clone https://github.com/sskorol/rae-scripts.git && \
     unzip rae-scripts.zip
 ```
 
-### Setting up persistent Wi-Fi
+### Setting up persistent Wi-Fi (ROS w/o RobotHub)
 
 ```shell
 ssh root@192.168.197.55 # must be connected via usb cable
